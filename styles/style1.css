@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    
+}
+.wrapper{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* padding: 2em; */
+    grid-row-gap: 0.5em;
+    
+}
+.div1{
+    background-color: darkgrey;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    /* padding: 1em; */
+
+}
+.navbar{
+    display: grid;
+    background-color: black;
+    color: whitesmoke;
+    grid-column-gap: 4em;
+    width: 100%;
+    /* padding: 1em; */
+}
+.nav-header{
+    grid-column: 1/6;
+    font-family: 'Volkhov', serif;
+    padding-left: 4em;
+}
+.nav-links{
+    grid-column: 6/12;
+   /* padding-right: 0; */
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    padding: 1em;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.para1{
+    /* padding: 1em; */
+    background-image: url('./images/andrew-neel-cckf4TsHAuw-unsplash.jpg');
+    background-size: contain;
+    width: 100%;
+    height: 700px;
+    color: black;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    
+}
+#text{
+    padding-top: 10em;
+    font-family: 'Hammersmith One', sans-serif;
+}
+h1{
+    padding-top: 30px;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    text-shadow: black;
+}
+.div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    /* background-image: url('./images/andrew-neel-cckf4TsHAuw-unsplash.jpg'); */
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    color: cornsilk;
+    
+}
+#col1,#col2,#col3{
+    padding: 5em;
+    
+    
+}
+.footer{
+    display: grid;
+    width: 100%;
+    height: 50px;
+    color: beige;
+    background-color: black;
+    padding: 1em;
+}
