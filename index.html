@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Paytone+One|Volkhov&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: sans-serif;
+            
+        }
+        .wrapper{
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* padding: 2em; */
+            grid-row-gap: 1em;
+            
+        }
+        .div1{
+            background-color: darkgrey;
+            display: grid;
+            /* grid-template-columns: 1fr 1fr; */
+            /* padding: 1em; */
+
+        }
+        .navbar{
+            display: grid;
+            background-color: black;
+            color: whitesmoke;
+            grid-column-gap: 4em;
+            width: 100%;
+            /* padding: 1em; */
+        }
+        .nav-header{
+            grid-column: 1/6;
+            font-family: 'Volkhov', serif;
+            padding-left: 4em;
+        }
+        .nav-links{
+            grid-column: 6/12;
+           /* padding-right: 0; */
+        }
+        li{
+            list-style-type: none;
+            
+        }
+        a{
+            padding: 1em;
+            text-decoration: none;
+            color: whitesmoke;
+            font-family: 'Hammersmith One', sans-serif;
+        }
+        .para1{
+            /* padding: 1em; */
+            background-image: url('./images/luca-bravo-9l_326FISzk-unsplash.jpg');
+            background-size: contain;
+            width: 100%;
+            height: 700px;
+            color: whitesmoke;
+            text-align: center;
+            font-family: 'Hammersmith One', sans-serif;
+            
+        }
+        #text{
+            padding-top: 10em;
+            font-family: 'Hammersmith One', sans-serif;
+        }
+        h1{
+            /* line-height: 2;
+            font-family: 'Paytone One', sans-serif; */
+            color: black;
+            text-shadow: black;
+        }
+        .div2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: whitesmoke;
+            width: 100%;
+            height: 700px;
+            background-image: url('./images/andrew-neel-cckf4TsHAuw-unsplash.jpg');
+            background-size: contain;
+            /* background-repeat: no-repeat; */
+            
+        }
+        #col1,#col2,#col3{
+            padding: 5em;
+            
+            
+        }
+        .footer{
+            width: 100%;
+            height: 50px;
+            color: beige;
+            background-color: black;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="div1">
+            <div class="navbar">
+                <h2 class="nav-header">JAVASCRIPT STUDENT</h2>
+                <nav class="nav-links">
+                    <ul><li>
+                        <a href="http://">HOME</a>
+                        <a href="http://">ABOUT</a>
+                        <a href="http://">SERVICE</a>
+                        <a href="http://">BLOG</a>
+                        <a href="http://">WORK</a>
+                        <a href="http://">CONTACT</a>
+                    </li></ul>
+                </nav>
+            </div>
+            <div class="para1" >
+                <div id="text">
+                    <h1>I AM LAWAL, ABDULRAFIU KEHINDE</h1> <br>
+            <h3>A JavaScript Developer and Web Designer</h3>
+                </div>
+            
+              
+            </div>
+            </div>
+        <div class="div2">
+            <div id="col1">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam magnam esse nulla placeat obcaecati deleniti perspiciatis, voluptates minus molestiae tenetur suscipit dolorum aliquam eveniet nam eligendi asperiores nemo ad corporis, culpa perferendis voluptate, voluptatem eaque! Veniam iure laudantium pariatur ea.
+            </div>
+            <div id="col2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam magnam esse nulla placeat obcaecati deleniti perspiciatis, voluptates minus molestiae tenetur suscipit dolorum aliquam eveniet nam eligendi asperiores nemo ad corporis, culpa perferendis voluptate, voluptatem eaque! Veniam iure laudantium pariatur ea.</div>
+            <div id="col3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam magnam esse nulla placeat obcaecati deleniti perspiciatis, voluptates minus molestiae tenetur suscipit dolorum aliquam eveniet nam eligendi asperiores nemo ad corporis, culpa perferendis voluptate, voluptatem eaque! Veniam iure laudantium pariatur ea.</div>
+            </div>
+        <footer class="footer">Photo by Andrew Neel on Unsplash<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont,San Francisco, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto,Segoe UI, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@lucabravo?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Luca Bravo"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Luca Bravo</span></a></footer>
+    </div>
+</body>
+</html>
