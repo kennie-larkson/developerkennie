@@ -31,15 +31,16 @@ body{
 .profile{
     display: flex;
     justify-content: space-evenly;
-    padding: 1em;
+    padding: 0.5em;
     /* border: 2px solid whitesmoke; */
 }
 img{
     /* border: 2px solid whitesmoke;  */
      border-radius: 100%;
 }
+
 .profile>h2{
-    padding-left: 1em;
+    padding-left: 0.5em;
 }
 .nav-header{
     /* grid-column: 1/6; */
@@ -114,8 +115,132 @@ span{
 .footer{
     display: grid;
     /* width: 100%; */
-    height: 50px;
+    /* height: 50px; */
     color: beige;
     background-color: black;
     padding: 1em;
+    text-align: center;
+}
+#socials{
+    display: flex;
+    justify-content: center;
+}
+#socials>.fa{
+    padding: 20px;
+    top: 0;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media screen and (max-width: 600px){
+    .wrapper{
+        display: grid;
+        grid-row-gap: 0.2em;
+        
+    }
+    .div1{
+        background-color: darkgrey;
+        display: grid;
+    }
+    .navbar{
+        /* display: grid; */
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        color: whitesmoke;
+        padding: 0;
+        /* grid-column-gap: 4em; */
+        width: 100%;
+        /* padding: 1em; */
+        justify-content: space-between;
+    }
+    .profile{
+        display: flex;
+        justify-content: space-evenly;
+        /* padding: 1em; */
+        /* border: 2px solid whitesmoke; */
+    }
+    img{
+        /* border: 2px solid whitesmoke;  */
+         border-radius: 100%;
+    }
+    
+    .profile>h2{
+        padding-left: 0.5em;
+    }
+    .nav-header{
+       
+        font-family: 'Volkhov', serif;
+        
+    }
+     .nav-links{
+        padding-top: 0.5em;
+    }  
+    li{
+        list-style-type: none;
+        
+    }
+    a{
+        padding: 1em;
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Hammersmith One', sans-serif;
+        
+    }
+    a:hover{
+        margin: 1px;
+    }
+    .para1{
+        /* padding: 1em; */
+        background-image: url('https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+        background-size: contain;
+        width: 100%;
+        height: 700px;
+        color: black;
+        text-align: center;
+        font-family: 'Hammersmith One', sans-serif;
+        
+    }
+    #text{
+        padding-top: 2em;
+        font-family: 'Hammersmith One', sans-serif;
+    }
+    h1{
+        padding-top: 10px;
+        font-family: 'Abril Fatface', cursive;
+        color: whitesmoke;
+        /* color: black; */
+        text-shadow: black;
+    }
+    h2{
+        color:whitesmoke;
+    }
+    span{
+        color: black;
+    }
+    .div2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: black;
+        width: 100%;
+        height: 700px;
+        /* background-image: url('./images/andrew-neel-cckf4TsHAuw-unsplash.jpg'); */
+        background-size: contain;
+        /* background-repeat: no-repeat; */
+        color: cornsilk;
+        
+    }
+    #col1,#col2,#col3{
+        padding: 5em;
+        
+        
+    }
+    .footer{
+        display: grid;
+        /* width: 100%; */
+        height: 50px;
+        color: beige;
+        background-color: black;
+        padding: 1em;
+    }
 }
